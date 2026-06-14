@@ -29,5 +29,16 @@ This showed me that batch size affects how the model learns and how stable the t
 5. Optimizer Comparison
 I compared SGD and Adam optimizers.Adam generally converged faster and reached good performance more quickly. SGD also worked, but it required more time and training before reaching similar performance. This helped me understand that optimizer choice can significantly affect training speed.
 
+Insights and Takeaways
 
+The biggest takeaway from this project is that training neural networks is not just about building a model. A lot of the performance comes from choosing the right training settings.
+
+Some things I learned:
+
+High accuracy on training data does not always mean the model is good.
+Overfitting can happen very easily on small datasets.
+Learning rate has a huge impact on training behavior.
+Dropout helps improve generalization.
+Different optimizers can lead to very different results.
+Looking at loss curves can tell a lot about how a model is learning.
 
