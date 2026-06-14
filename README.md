@@ -35,6 +35,9 @@ The biggest takeaway from this project is that training neural networks is not j
 
 Some things I learned:
 
+The failed experiment was using a learning rate of 10.0. Instead of learning properly, the loss became unstable and the model struggled to converge. Initially, I thought a larger learning rate would help the model learn faster, but it actually caused the optimizer to overshoot good solutions. This experiment helped me understand why choosing an appropriate learning rate is important for stable training.
+
+
 High accuracy on training data does not always mean the model is good.
 Overfitting can happen very easily on small datasets.
 Learning rate has a huge impact on training behavior.
